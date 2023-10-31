@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap'); 
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --background-home: linear-gradient(45deg, rgb(56, 54, 56, 100%), black);
+    --color-nav: #8B8E99;
+    --background-card: #F6F6F6;
+
+}

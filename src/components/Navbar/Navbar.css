@@ -1,0 +1,43 @@
+nav {
+   background: var(--background-home);
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.watch-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-nav {
+    font-size: 16px;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.ul-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.links {
+    padding: 27px;
+    color: var(--color-nav);
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.icons {
+    display: flex;
+}
+
+.icons div {
+   padding-left: 15px;
+}
