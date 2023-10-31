@@ -3,6 +3,8 @@ nav {
    display: flex;
    justify-content: space-around;
    align-items: center;
+   padding-top: 22px;
+   padding: 25px;
 }
 
 .watch-logo{

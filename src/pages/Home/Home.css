@@ -1,0 +1,73 @@
+.home {
+    margin-top: 175px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.titulo-discover {
+    color: #ffffff;
+    font-size: 64px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.texto-watch {
+    color: var(--color-nav);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.input  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 47px;
+    padding: 10px;
+    width: 443px;
+    height: 60px;
+    background-color: #ffffff;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.input div {
+    display: flex;
+    align-items: center;
+}
+
+input {
+   border: none;
+   padding-left: 16px;
+}
+
+input:focus {
+    outline: none;
+}
+
+
+.input button{
+  width: 112px;
+  height: 45px;
+  background-color: var(--background-button);
+  color: #ffffff;
+  border: none;
+  border-radius: 9px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+
+::placeholder {
+   text-align: center;
+   font-size: 16px;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 500;
+   color: #8B8E99;
+}
+
+.home img {
+    background: url('../../assets/watch.jpg');
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}

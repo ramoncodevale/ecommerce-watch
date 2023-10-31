@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap'); 
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
 
 * {
     margin: 0;
@@ -8,8 +7,8 @@
 }
 
 :root {
-    --background-home: linear-gradient(45deg, rgb(56, 54, 56, 100%), black);
+    --background-home: rgb( 0, 0, 0);
     --color-nav: #8B8E99;
     --background-card: #F6F6F6;
-
+    --background-button: #3858D6;
 }
