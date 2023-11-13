@@ -66,8 +66,3 @@ input:focus {
    font-weight: 500;
    color: #8B8E99;
 }
-
-.home img {
-    background: url('../../assets/watch.jpg');
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-}

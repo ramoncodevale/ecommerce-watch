@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;800;900&display=swap');
+
+.card {
+  width: 354px;
+  height: 239px;
+  background-color: var(--background-card);
+  border-radius: 22px;
+  margin-top: 100px;
+  margin-left: 30px;
+  font-family: 'Inter', sans-serif;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  margin-top: 46px;
+}
+
+.card-container img {
+  padding: 40px;
+}
+
+.card-container h3 {
+  color: #1E1D1D;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.card-texto {
+  margin-left: 10px;
+  margin-top: 57px;
+}
